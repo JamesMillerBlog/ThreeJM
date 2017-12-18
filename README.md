@@ -1,7 +1,7 @@
 # ThreeJM
-This javascript library was made with the intention of turning ThreeJS (a 3D visualiser), Cannon.js (a physics engine) and Reticulum (a 3D targeting library), into a production focused tool - made to produce 3D web experiences. 
+This javascript library was made with the intention of turning ThreeJS (a 3D visualiser), Cannon.js (a physics engine), AR.js (an AR + image marker recognition engine) and Reticulum (a 3D targeting library), into a production focused tool - made to produce 3D web experiences. 
 
-ThreeJM currently includes gulp + docker integration and comes built in with positional audio, 3D object creation, 3D model loader (JSON format), physics, gaze detection, 360 video/photo loaders and various camera modes such as FPS (VR) and Model Viewer (Sketchfab-like emulator).
+ThreeJM currently includes gulp + docker integration and comes built in with positional audio, 3D object creation, 3D model loader (JSON format), physics, gaze detection, 360 video/photo loaders and various camera modes such as FPS (VR) / AR / Model Viewer (Sketchfab-like emulator).
 
 A roadmap of features that have yet to be implemented can be found at the bottom of this page.
 
