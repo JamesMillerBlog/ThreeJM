@@ -1,0 +1,26 @@
+version: "3"
+services:
+  nginx:
+    build: ./web/nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - vr
+  vr:
+    build: ./web/vr
+    volumes:
+      - ./web/vr:/usr/src/app
+    # dev command
+    ports:
+      - "4000:4000"
+    command: gulp
+    # deploy command
+    # command: bash -c "npm install && node dist/index.js"
+    # non-gulp dev command
+    # command: node ./dist/index.js
+
+    # LIST OF COMMANDS
+
+    # to start: docker-compose up
+    # docker stop $(docker ps -a -q)
+    # docker rm $(docker ps -a -q)

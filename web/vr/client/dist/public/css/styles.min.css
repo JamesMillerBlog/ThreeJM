@@ -1,0 +1,69 @@
+body {
+  /*test*/
+}
+html {
+  cursor: none;
+}
+
+body {
+  margin: 0px;
+  overflow: hidden;
+  padding: 0;
+}
+
+#webglviewer {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+h1 {
+  color: white;
+  margin-left: 20px;
+  font-size: 24px;
+  display: inline-block;
+}
+
+#data {
+  color: red;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+  z-index: 10;
+}
+
+#video {
+  /*display: none;*/
+}
+
+#blocker {
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#instructions {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}

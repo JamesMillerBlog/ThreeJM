@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='../css/styles.min.css')
+        script(src='/socket.io/socket.io.js')
+        meta(name='viewport', content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0')
+    body
+        #blocker
+          #instructions
+            br
+            |   Rotate your phone to look at the different content worlds.
+            br
+            br
+            |   Tap on the worlds to view their content. 
+            br
+            br
+            span Click to play
+        #data
+        // video#video
+        #webglviewer
+        // script.
+          // WebVRConfig = {
+          // // Forces availability of VR mode.
+          //   FORCE_ENABLE_VR: true,
+          // };
+        script(src = '../js/libs/libs.min.js')
+        script(src = '../js/bundle.min.js')
